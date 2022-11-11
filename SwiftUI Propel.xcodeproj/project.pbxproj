@@ -14,6 +14,8 @@
 		324519EF291D988B00DFADB6 /* SwiftUI_PropelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324519EE291D988B00DFADB6 /* SwiftUI_PropelTests.swift */; };
 		324519F9291D988B00DFADB6 /* SwiftUI_PropelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324519F8291D988B00DFADB6 /* SwiftUI_PropelUITests.swift */; };
 		324519FB291D988B00DFADB6 /* SwiftUI_PropelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324519FA291D988B00DFADB6 /* SwiftUI_PropelUITestsLaunchTests.swift */; };
+		DCA905DC291ED5D0000AB236 /* Phase1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA905DB291ED5D0000AB236 /* Phase1View.swift */; };
+		DCA905DE291ED66A000AB236 /* Phase1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA905DD291ED66A000AB236 /* Phase1ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		324519FA291D988B00DFADB6 /* SwiftUI_PropelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PropelUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		32451A07291D993300DFADB6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		32451A09291D9B6C00DFADB6 /* phase 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phase 1.png"; sourceTree = "<group>"; };
+		DCA905DB291ED5D0000AB236 /* Phase1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phase1View.swift; sourceTree = "<group>"; };
+		DCA905DD291ED66A000AB236 /* Phase1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phase1ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				324519E0291D988B00DFADB6 /* Assets.xcassets */,
 				324519E5291D988B00DFADB6 /* SwiftUI_Propel.entitlements */,
 				324519E2291D988B00DFADB6 /* Preview Content */,
+				DCA905DB291ED5D0000AB236 /* Phase1View.swift */,
+				DCA905DD291ED66A000AB236 /* Phase1ViewModel.swift */,
 			);
 			path = "SwiftUI Propel";
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 			files = (
 				324519DF291D988800DFADB6 /* ContentView.swift in Sources */,
 				324519DD291D988800DFADB6 /* SwiftUI_PropelApp.swift in Sources */,
+				DCA905DE291ED66A000AB236 /* Phase1ViewModel.swift in Sources */,
+				DCA905DC291ED5D0000AB236 /* Phase1View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
