@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_PropelApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Phase1View()
         }
     }
 }

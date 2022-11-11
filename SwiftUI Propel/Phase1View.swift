@@ -13,15 +13,13 @@ struct Phase1View: View {
     @StateObject var viewModel: Phase1ViewModel = Phase1ViewModel()
     
     var body: some View {
-        VStack {
             Spacer()
             LogoView()
             Spacer()
             UserInputView()
             Spacer()
             LoginButtonView()
-            
-        }
+            Spacer()
     }
 }
 
@@ -46,22 +44,48 @@ struct UserInputView: View {
     
     var body: some View {
         VStack {
-            TextField("Username", text: $viewmodel.userInformation.username)
+            HStack {
+                TextField("Username",text: $viewmodel.userInformation.username)
+                    .textFieldStyle(.plain)
+                    .padding()
+            }
+            .border(.black)
+            .padding()
+            
+            HStack {
             TextField("Password", text: $viewmodel.userInformation.password)
+                .textFieldStyle(.plain)
+                .padding()
+            }
+            .border(.black)
+            .padding()
         }
+        .padding()
     }
 }
 
 struct LoginButtonView: View {
     @ObservedObject var viewmodel: Phase1ViewModel = Phase1ViewModel()
     var body: some View {
-        Button("Login", action: {
+        Button(action: {
             if (viewmodel.userInformation.username != "") && (viewmodel.userInformation.password != "") {
                 viewmodel.canLogin = true
             } else {
                 viewmodel.canLogin = false
             }
+        },
+        label: {
+            HStack {
+                Text("Login")
+                    .frame(minWidth: 1, idealWidth: .infinity, maxWidth: .infinity)
+                    .foregroundColor(.black)
+            }
+            .padding()
         })
+        .buttonStyle(.plain)
+        .border(.black)
+        .padding()
+
     }
     
     
