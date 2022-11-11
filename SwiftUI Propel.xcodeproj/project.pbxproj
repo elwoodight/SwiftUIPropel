@@ -14,6 +14,7 @@
 		324519EF291D988B00DFADB6 /* SwiftUI_PropelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324519EE291D988B00DFADB6 /* SwiftUI_PropelTests.swift */; };
 		324519F9291D988B00DFADB6 /* SwiftUI_PropelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324519F8291D988B00DFADB6 /* SwiftUI_PropelUITests.swift */; };
 		324519FB291D988B00DFADB6 /* SwiftUI_PropelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324519FA291D988B00DFADB6 /* SwiftUI_PropelUITestsLaunchTests.swift */; };
+		DCA905DA291ED2DC000AB236 /* Phase1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA905D9291ED2DC000AB236 /* Phase1View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		324519FA291D988B00DFADB6 /* SwiftUI_PropelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PropelUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		32451A07291D993300DFADB6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		32451A09291D9B6C00DFADB6 /* phase 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phase 1.png"; sourceTree = "<group>"; };
+		DCA905D9291ED2DC000AB236 /* Phase1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phase1View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				324519E0291D988B00DFADB6 /* Assets.xcassets */,
 				324519E5291D988B00DFADB6 /* SwiftUI_Propel.entitlements */,
 				324519E2291D988B00DFADB6 /* Preview Content */,
+				DCA905D9291ED2DC000AB236 /* Phase1View.swift */,
 			);
 			path = "SwiftUI Propel";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				324519DF291D988800DFADB6 /* ContentView.swift in Sources */,
 				324519DD291D988800DFADB6 /* SwiftUI_PropelApp.swift in Sources */,
+				DCA905DA291ED2DC000AB236 /* Phase1View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,8 +438,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "na.SwiftUI-Propel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -459,8 +467,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "na.SwiftUI-Propel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
